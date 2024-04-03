@@ -1,0 +1,74 @@
+doctype html
+html
+  head
+    title Hamza Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        
+        ul
+            div#logo
+              img(src="/static/logo.png")
+              | HDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]    
+            li #[a(href="/") Services] 
+            li #[a(href="/") Contact Us]
+            li #[a(href="/") Class Info]
+
+            button.btnnav
+                  | Join now        
+
+    section#introSection 
+        div Welcome to Hamza's Dance Academy
+        div.small Join calsses now  
+
+    section#MissionSection 
+        h2 OUR MISSION
+
+        div.card
+          h3 Dance perfection
+          div.card-box 
+            div.card-img 
+              img(src="/static/img 1.png") 
+            div.card-content 
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum suscipit perspiciatis a incidunt esse minima
+
+        div.card
+          h3 Dance the way you like
+          div.card-box 
+            div.card-img 
+              img(src="/static/img 2.png") 
+            div.card-content 
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum suscipit perspiciatis a incidunt esse minima
+
+        div.card
+          h3 Expert Teacher
+          div.card-box 
+            div.card-img 
+              img(src="/static/img 3.png") 
+            div.card-content 
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum suscipit perspiciatis a incidunt esse minima
+
+        //- div Explore more about dance and classes sschedule
+
+    //- section#sponsorsSection 
+    //-     h2 Our sponsers
+    //-     div#sponsers 
+    //-       img(src="/static/", alt="Sponsor Image", Class="spImage")
+    //-       img(src="/static/", alt="Sponsor Image", Class="spImage")
+    //-       img(src="/static/", alt="Sponsor Image", Class="spImage")
+    //-       img(src="/static/", alt="Sponsor Image", Class="spImage")
+
+    footer#footer
+        //- div#logo
+        //-       img(src="/static/logo.png")
+        //-       | HDA
+        //- div.txt
+        | Copyright © 2024 HamzaDanceacademy.com | All reghts resirved
+
+    script
+      include ../static/script.js
+
+      

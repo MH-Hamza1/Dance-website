@@ -1,0 +1,68 @@
+extends base.pug
+
+block scripts
+  script(src='/static/script.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    
+    section#introSection 
+        div Welcome to Hamza's Dance Academy
+        div.small Join calsses now
+        button.btnjoin
+                  | Join now 
+
+    section#MissionSection 
+        h2 OUR MISSION
+
+        div.card
+          h3 Dance perfection
+          div.card-box 
+            div.card-img 
+              img(src="/static/img 1.png") 
+            div.card-content 
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum suscipit perspiciatis a incidunt esse minima
+
+        div.card
+          h3 Dance the way you like
+          div.card-box 
+            div.card-img 
+              img(src="/static/img 2.png") 
+            div.card-content 
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum suscipit perspiciatis a incidunt esse minima
+
+        div.card
+          h3 Expert Teacher
+          div.card-box 
+            div.card-img 
+              img(src="/static/img 3.png") 
+            div.card-content 
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum suscipit perspiciatis a incidunt esse minima 
+
+    section#last-sec
+      div.section
+        div.Box
+          p.heading Explore more about dance
+          p.para Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam assumenda corporis unde eum reprehenderit quam velit fuga hic est autem aliquid dolores quas esse tempora, iusto, vel fugiat vitae perspiciatis alias omnis placeat voluptate, voluptatum laborum aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        div.thumbnail  
+          img(src="/static/thumbnail-1.jpg", alt="img")
+
+
+      div.section.left
+        div.Box
+          p.heading Classes schedule
+          p.para Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam assumenda corporis unde eum reprehenderit quam velit fuga hic est autem aliquid dolores quas esse tempora, iusto, vel fugiat vitae perspiciatis alias omnis placeat voluptate, voluptatum laborum aliquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        div.thumbnail  
+          img(src="/static/thumbnail-2.jpg", alt="img")
+
+
+    //- section#sponsorsSection 
+    //-     h2 Our sponsers
+    //-     div#sponsers 
+    //-       img(src="/static/", alt="Sponsor Image", Class="spImage")
+    //-       img(src="/static/", alt="Sponsor Image", Class="spImage")
+    //-       img(src="/static/", alt="Sponsor Image", Class="spImage")
+    //-       img(src="/static/", alt="Sponsor Image", Class="spImage")
